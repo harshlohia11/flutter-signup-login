@@ -9,6 +9,14 @@ class HomeScreen extends StatefulWidget {
 }
 
 class _HomeScreenState extends State<HomeScreen> {
+  final _auth = FirebaseAuth.instance;
+
+  void initState() {
+    super.initState();
+    getCurrentUser();
+  }
+
+  //using this function you can use the credentials of the user
   void getCurrentUser() async {
     try {
       final user = await _auth.currentUser;
@@ -20,11 +28,8 @@ class _HomeScreenState extends State<HomeScreen> {
     }
   }
 
-  final _auth = FirebaseAuth.instance;
-
   @override
   Widget build(BuildContext context) {
-    String currentUser = loggedinUser.email;
     return Scaffold(
       appBar: AppBar(
         leading: null,
@@ -43,7 +48,7 @@ class _HomeScreenState extends State<HomeScreen> {
       ),
       body: Center(
         child: Text(
-          "Welcome $currentUser",
+          "Welcome User",
           style: TextStyle(fontSize: 20.0, fontWeight: FontWeight.bold),
         ),
       ),
