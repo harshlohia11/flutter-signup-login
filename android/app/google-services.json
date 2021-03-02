@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "276377708030",
+    "project_id": "signup-login-a7450",
+    "storage_bucket": "signup-login-a7450.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:276377708030:android:11f190d27546f5a65f0caf",
+        "android_client_info": {
+          "package_name": "iamharsh.login_signup"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "276377708030-5853s3iktemgrpcv6g2k8jjd31q05rd1.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD5_UhDy3dk0debA9m3F9IcPbhS1zUcjtg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "276377708030-5853s3iktemgrpcv6g2k8jjd31q05rd1.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
